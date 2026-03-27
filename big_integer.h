@@ -73,4 +73,9 @@ private:
 
     std::vector<int> digits_;  // digits (least significant first)
     bool negative_ = false;    // true if the number is negative
+    bool isZero() const;
+    void normalize();
+    static int compareAbs(const BigInteger& a, const BigInteger& b);
+    static std::vector<int> addAbs(const std::vector<int>& a, const std::vector<int>& b);
+    static std::vector<int> subAbs(const std::vector<int>& a, const std::vector<int>& b);
 };
