@@ -4,8 +4,8 @@
 
 | Field     | Value               |
 |-----------|---------------------|
-| **Name**  | _John Doe_          |
-| **Group** | _CS-101_            |
+| **Name**  | Murtazaliev Omar    |
+| **Group** |RP-IS                |
 
 > **Replace the data above with your own!**
 
